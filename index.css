@@ -1,0 +1,23 @@
+body{
+    width: 1920px;
+}
+
+main p{
+    color: blue;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    width: 5%;
+    font-style: italic;
+    padding: 5px;
+}
