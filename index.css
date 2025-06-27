@@ -1,13 +1,18 @@
 body{
     width: 1900px;
-    background-image: url(/images/21e72d6fc1563d5500582a3fcc63a545.jpg);
+    height: 800px;
+    background-image: url(/images/21e72d6fc1563d5500582a3fcc63a545.jpeg);
     background-repeat: repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     background-color: black;
 }
 
-main p{
+main{
+    width: 100%;
+}
 
+main div p{
     color: white;
 }
 
@@ -16,7 +21,7 @@ header{
 }
 
 nav{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: flex-end;
 }
@@ -39,12 +44,19 @@ nav p{
     justify-content: center;
 }
 
-img{
-    top: 25%;
+#neco{
+    top: 210px;
     left: 100px;
-    height: 150px;
+    height: 120px;
     position: absolute;
     
+}
+
+#rad{
+    bottom: 120px;
+    right: 250px;
+    height: 90px;
+    position: absolute;
 }
 
 footer{
