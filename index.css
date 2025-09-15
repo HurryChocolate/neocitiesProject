@@ -1,19 +1,27 @@
 body{
-    width: 1900px;
+    width: 1890px;
     height: 800px;
     background-image: url(/images/21e72d6fc1563d5500582a3fcc63a545.jpeg);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1890px 790px ;
+    background-position-x: 10px;
+    background-position-y: 12px;
+    background-color: rgb(0, 4, 255);
+    text-align: center;
+    box-shadow: -5px -5px rgb(46, 46, 46) inset, 5px 5px rgb(219, 219, 219) inset, 5px 5px black, 15px 15px darkgray inset, -15px -15px darkgrey inset;
 }
 
 main{
     width: 100%;
+    height: 90%;
 }
 
-main div p{
-    color: white;
+.container p{
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
+    text-align: center;
+    box-shadow: -3px -3px rgb(46, 46, 46) inset, 3px 3px rgb(219, 219, 219) inset, 2px 2px black;
 }
 
 header{
@@ -30,16 +38,17 @@ nav p{
     width: 5%;
     font-style: italic;
     padding: 5px;
-    margin: 1px;
-    color: whitesmoke;
-    background-color: gray;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
     text-align: center;
-    border-radius: 5px;
+    box-shadow: -3px -3px rgb(46, 46, 46) inset, 3px 3px rgb(219, 219, 219) inset, 2px 2px black;
+    
 }
 
 .container{
     width: 100%;
-    height: 780px;
     display: flex;
     justify-content: center;
 }
@@ -49,19 +58,26 @@ nav p{
     left: 100px;
     height: 120px;
     position: absolute;
+    box-shadow: 5px 5px 10px;
     
 }
 
 #rad{
-    bottom: 120px;
-    right: 250px;
-    height: 90px;
     position: absolute;
+    margin-top: 550px;
+    margin-left: 600px;
+    height: 90px;
+    box-shadow: 5px 5px 10px;
 }
 
 footer{
+    margin-top: 30px;
     width: 100%;
+    height: 5%;
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
+    background-color: darkgray;
+    text-align: center;
+    box-shadow: -5px -5px rgb(46, 46, 46) inset, 5px 5px rgb(219, 219, 219) inset, 5px 5px black, 15px 15px darkgray inset, -15px -15px darkgrey inset;
 }
