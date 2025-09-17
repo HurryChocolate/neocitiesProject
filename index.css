@@ -1,27 +1,20 @@
 body{
     width: 1890px;
     height: 800px;
-    background-image: url(/images/21e72d6fc1563d5500582a3fcc63a545.jpeg);
-    background-repeat: no-repeat;
-    background-size: 1890px 790px ;
-    background-position-x: 10px;
-    background-position-y: 12px;
-    background-color: rgb(0, 4, 255);
-    text-align: center;
-    box-shadow: -5px -5px rgb(46, 46, 46) inset, 5px 5px rgb(219, 219, 219) inset, 5px 5px black, 15px 15px darkgray inset, -15px -15px darkgrey inset;
+    background-image: url(/images/Texture.png);
+    background-repeat: repeat;
+    
 }
 
 main{
     width: 100%;
     height: 90%;
-}
-
-.container p{
-    padding: 5px;
-    color: rgb(0, 0, 0);
-    background-color: darkgray;
-    text-align: center;
-    box-shadow: -3px -3px rgb(46, 46, 46) inset, 3px 3px rgb(219, 219, 219) inset, 2px 2px black;
+    background-image: url(/images/21e72d6fc1563d5500582a3fcc63a545.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: 10px;
+    background-position-y: 12px;
+    box-shadow: -5px -5px rgb(46, 46, 46) inset, 5px 5px rgb(219, 219, 219) inset, 5px 5px black, 15px 15px darkgray inset, -15px -15px darkgrey inset;
 }
 
 header{
@@ -43,8 +36,27 @@ nav p{
     color: rgb(0, 0, 0);
     background-color: darkgray;
     text-align: center;
-    box-shadow: -3px -3px rgb(46, 46, 46) inset, 3px 3px rgb(219, 219, 219) inset, 2px 2px black;
-    
+    box-shadow: -1px -1px rgb(17, 17, 17) inset,
+     -2px  -2px gray inset, 
+     1px 1px rgb(219, 219, 219) inset, 
+     2px 2px rgb(196, 196, 196) inset, 
+     2px 2px black;    
+}
+
+nav p:hover{
+    width: 5%;
+    font-style: italic;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    box-shadow: -1px -1px rgb(219, 219, 219) inset, 
+        -2px  -2px rgb(196, 196, 196) inset, 
+        1px 1px rgb(17, 17, 17) inset, 
+        2px 2px gray inset, 
+        2px 2px black;
 }
 
 .container{
@@ -53,9 +65,33 @@ nav p{
     justify-content: center;
 }
 
+.container p{
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
+    text-align: center;
+    box-shadow: -1px -1px rgb(17, 17, 17) inset, 
+    -2px  -2px gray inset, 
+    1px 1px rgb(219, 219, 219) inset, 
+    2px 2px rgb(196, 196, 196) inset, 
+    2px 2px black;
+}
+
+.container p:hover{
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    box-shadow: -1px -1px rgb(219, 219, 219) inset, 
+        -2px  -2px rgb(196, 196, 196) inset, 
+        1px 1px rgb(92, 92, 92) inset, 
+        2px 2px gray inset, 
+        2px 2px rgb(46, 46, 46);
+}
+
 #neco{
-    top: 210px;
-    left: 100px;
+    top: 250px;
+    left: 120px;
     height: 120px;
     position: absolute;
     box-shadow: 5px 5px 10px;
@@ -64,8 +100,8 @@ nav p{
 
 #rad{
     position: absolute;
-    margin-top: 550px;
-    margin-left: 600px;
+    margin-top: 500px;
+    margin-left: 1500px;
     height: 90px;
     box-shadow: 5px 5px 10px;
 }
